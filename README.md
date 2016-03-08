@@ -10,7 +10,7 @@ The idea for this project came from our [project-ideas](https://github.com/open-
 - Ruby (2.2.2)
 - Rails (4.2.4)
 - Minitest
-- PostgreSQL Database
+- SQLite3 Database
 - Rails-api
 - Geocoder for distance measurement
 
@@ -27,3 +27,9 @@ More information in the Gemfile
 
 
 ##Credits and Acknowledgements
+The database for this project is seeded with data gathered from several dynamic sources online. They are:
+[momsdemandaction](http://momsdemandaction.org/campaigns/texas-businesses-say-no-to-open-carry/)
+[austin360 dining blog](http://dining.blog.austin360.com/2016/01/04/list-of-austin-restaurants-opting-out-of-open-carry/)
+[gunfreebusiness](https://gunfreebusinesses.wordpress.com/)
+
+Crowdsourcing will expand the record set.
