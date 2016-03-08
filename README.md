@@ -28,8 +28,8 @@ More information in the Gemfile
 
 ##Credits and Acknowledgements
 The database for this project is seeded with data gathered from several dynamic sources online. They are:
-[momsdemandaction](http://momsdemandaction.org/campaigns/texas-businesses-say-no-to-open-carry/)
-[austin360 dining blog](http://dining.blog.austin360.com/2016/01/04/list-of-austin-restaurants-opting-out-of-open-carry/)
-[gunfreebusiness](https://gunfreebusinesses.wordpress.com/)
+- [momsdemandaction](http://momsdemandaction.org/campaigns/texas-businesses-say-no-to-open-carry/)
+- [austin360 dining blog](http://dining.blog.austin360.com/2016/01/04/list-of-austin-restaurants-opting-out-of-open-carry/)
+- [gunfreebusiness](https://gunfreebusinesses.wordpress.com/)
 
 Crowdsourcing will expand the record set.
