@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :business_types, except: [:new, :edit]
-  resources :businesses, except: [:new, :edit]
+  resources :business_types,  except: [:new, :edit]
+  resources :businesses,      except: [:edit, :delete]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
