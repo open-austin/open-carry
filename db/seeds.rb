@@ -5,3 +5,30 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+BusinessType.create(
+  name:   "retail"
+)
+BusinessType.create(
+  name:   "entertainment"
+)
+BusinessType.create(
+  name:   "restaurant/food"
+)
+BusinessType.create(
+  name:   "office/admin"
+)
+BusinessType.create(
+  name:   "gym/sport"
+)
+BusinessType.create(
+  name:   "medical"
+)
+BusinessType.create(
+  name:   "services"
+)
+BusinessType.create(
+  name:   "travel/hotel"
+)
+
+#apartment complexes?
