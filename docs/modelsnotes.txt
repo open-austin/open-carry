@@ -1,0 +1,20 @@
+Businesses have type_ofs
+- entertainment
+- fitness/sport
+- retail
+- restaurant
+- medical
+- services
+- office/admin
+- hospitality (hotels - apartment complexes?)
+
+Business have signs
+- 30.06 concealed carry
+- 30.07 open carry
+- 51% alcohol sales
+
+attributes
+- name
+- address :geolocated for map
+- sign posted/viewed
+- type_of
