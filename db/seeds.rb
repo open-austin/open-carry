@@ -14,6 +14,7 @@ gym           = BusinessType.create(name:   "gym/sport")
 medical       = BusinessType.create(name:   "medical")
 service       = BusinessType.create(name:   "services")
 travel        = BusinessType.create(name:   "travel/hotel")
+other         = BusinessType.create(name:   "other")
 
 #apartment complexes?
 
@@ -21,10 +22,11 @@ Business.create({
   name:             "Freebirds World Burrito",
   business_type_id: restaurant.id
 })
-# {
-#   name:             "Fuzzy’s Taco Shop",
-#   business_type_id: restaurant.id
-# },
+
+Business.create({
+  name:             "YMCA of Austin",
+  business_type_id: gym.id
+})
 # {
 #   name:             "Galaxy Café",
 #   business_type_id: restaurant.id
