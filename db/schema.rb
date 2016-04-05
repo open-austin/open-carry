@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160308033203) do
+ActiveRecord::Schema.define(version: 20160405032458) do
 
   create_table "business_types", force: :cascade do |t|
     t.string   "name"
@@ -30,6 +30,9 @@ ActiveRecord::Schema.define(version: 20160308033203) do
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
     t.integer  "business_type_id"
+    t.boolean  "conceal_ban"
+    t.boolean  "open_ban"
+    t.boolean  "alcohol51percent"
   end
 
   add_index "businesses", ["business_type_id"], name: "index_businesses_on_business_type_id"
