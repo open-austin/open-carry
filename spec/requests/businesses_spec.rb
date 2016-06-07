@@ -3,7 +3,7 @@
 describe "Businesses API" do
   it 'sends a list of messages' do
 
-    get '/api/businesses'
+    get '/businesses'
 
     json = JSON.parse(response.body)
 
@@ -17,7 +17,7 @@ end
 
 describe "Businesses API" do
   it 'sends a specific business' do
-    get 'api/business/1'
+    get '/business/1'
 
     json = JSON.parse(response.body)
 
