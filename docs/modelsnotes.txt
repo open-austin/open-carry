@@ -18,3 +18,9 @@ attributes
 - address :geolocated for map
 - sign posted/viewed
 - type_of
+
+Have a rating system
+
+Nokogiri to scrape existing dynamic pages - check
+
+one idea is to bring in all scraped data from relevant sites, match against Yelp or FourSquare API
