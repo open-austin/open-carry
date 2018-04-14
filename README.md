@@ -7,8 +7,8 @@ The idea for this project came from our [project-ideas](https://github.com/open-
 - Please see the github [wiki](https://github.com/open-austin/open-carry/wiki) for this site for anticipated changes and notes
 
 ##Libraries, software and other tools used
-- Ruby (2.2.2)
-- Rails (4.2.4)
+- Ruby
+- Rails
 - Minitest
 - SQLite3 Database
 - Rails-api
